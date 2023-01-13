@@ -34,7 +34,6 @@
 							$query = "SELECT * FROM contacts WHERE id = $id";
 							$result = $conn->query($query);
 							$contact = $result->fetch_assoc();
-							$conn->close();
 						}			
 						?>
 						<div class="mb-3">
